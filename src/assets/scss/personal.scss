@@ -1,0 +1,101 @@
+div#personal {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 80px 0;
+    .left-vertical-tabs {
+        width: 40%;
+        background-color: #1D465D;
+        padding: 80px 0 80px 80px;
+    }
+    ul.nav.nav-pills.nav-stacked {
+        float: left;
+    }
+    .vue-tabs .nav-pills > li.active > a{
+        background-color: transparent !important;
+        color: white;
+        padding: 18px 15px;
+    }
+    .vue-tabs .nav-pills > li > a{
+        padding: 18px 15px;
+    }
+    .vue-tabs .nav > li > a:hover{
+        background-color: transparent;
+    }
+    .vue-tabs .nav > li span.title{
+        display: flex;
+        justify-content: left;
+    }
+    .tab-content.right-text-tabs {
+        width: 60%;
+        padding: 0 60px;
+        .p_txt {
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: right;
+        }
+        .p_heading{
+            padding-top: 40px;
+            h3{
+                font-size: 16px;
+            }
+        }
+        .D_form {
+            display: grid;
+            grid-template-columns: 43% 43%;
+            grid-column-gap: 14%;
+            padding-top: 15px;
+        }
+        .vs-con-input-label{
+            width: 100% !important;
+            label.vs-input--label{
+                padding-left: 0;
+            }
+            .vs-con-input {
+                padding-top: 2px;
+                .vs-input--input.normal {
+                    padding: 10px 10px;
+                }
+            }
+        }
+        .vue-tel-input{
+            padding: 4px 0;
+        }
+        label.tel {
+            font-size: .85rem;
+            color: rgba(0,0,0,.7);
+            padding-top: 2px;
+        }
+
+        .stat {
+            display: grid;
+            grid-template-columns: 45% 45%;
+            grid-column-gap: 10%;
+        }
+        
+    }
+    .tabs.work {
+        padding-bottom: 200px;
+    }
+    .check{
+        display: grid;
+        grid-template-columns: 1fr;
+    .check_box {
+        padding-top: 40px;
+        float: left;
+        .ant-checkbox + span{
+            padding: 0 20px;
+            color: #000000;
+            font-size: 14px;
+        }
+        .check_para{
+            padding-left: 40px;
+            font-size: 10px;
+            padding-top: 20px;
+        }
+    }
+
+}
+
+   
+    
+}
